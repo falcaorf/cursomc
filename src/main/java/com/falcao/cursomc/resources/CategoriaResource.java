@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(value="/categorias")
 public class CategoriaResource {
 	
-	@Autowired
+	//@Autowired
 	
 	@RequestMapping(method=RequestMethod.GET)
 	public String listar() {
